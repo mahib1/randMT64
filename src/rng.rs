@@ -62,18 +62,17 @@ pub struct Random {
 
 impl Random {
     pub fn new(s: u128, e: u128) -> Self {
-        Self { start: s, end: e * MAGIC }
+        Self { start: s, end: e }
     }
 
     #[allow(dead_code)]
     pub fn default() -> Self {
-        Self { start: 0, end: MAGIC }
+        Self { start: 0, end: 1 }
     }
 }
 
 pub fn rand(config: &Random) -> Result<f64, std::io::Error> {
-    let end = config.end;
-    let start = config.start;
-
-    Ok(wrap_number(get_time(), start, end) as f64 / MAGIC as f64)
+    let unit = wrap_number(get_time(), 0, MAGIC) as f64 / MAGIC as f64;
+    let scaled = config.start as f64 + (config.end as f64 - config.start as f64) * unit;
+    Ok(scaled)
 }
