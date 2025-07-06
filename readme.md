@@ -63,7 +63,7 @@ randMT64/
 
 ## 🔧 API Overview
 
-### `rand(config: RandomRange) -> Result<f64, std::io::Error>`
+### `rand(config: &RandomRange) -> Result<f64, std::io::Error>`
 
 * Generates a pseudo-random `f64` in the interval \[`config.start`, `config.end`)
 * Internally uses the current system time (in microseconds) to seed a new MT64 instance

@@ -70,7 +70,7 @@ impl Random {
     }
 }
 
-pub fn rand(config: Random) -> Result<f64, std::io::Error> {
+pub fn rand(config: &Random) -> Result<f64, std::io::Error> {
     let end = config.end;
     let start = config.start;
 
