@@ -25,13 +25,13 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-randMT64 = "0.1.0"
+rand_mt_64 = "0.1.1"
 ````
 
 Use in code:
 
 ```rust
-use randMT64::{rand, RandomRange};
+use rand_mt_64::{rand, RandomRange};
 
 fn main() {
     let r1 = rand(RandomRange::default()).unwrap();
@@ -47,7 +47,7 @@ fn main() {
 ## 📁 Crate Structure
 
 ```
-randMT64/
+rand_mt_64/
 ├── src/
 │   ├── lib.rs           # Public API
 │   ├── mt64.rs          # Mersenne Twister 64-bit implementation
