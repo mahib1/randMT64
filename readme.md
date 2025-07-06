@@ -25,7 +25,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-rand_mt_64 = "0.1.1"
+rand_mt_64 = "0.1.2"
 ````
 
 Use in code:

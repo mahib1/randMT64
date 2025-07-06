@@ -1,6 +1,6 @@
 [package]
 name = "rand_mt_64"    
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"             
 authors = ["MAHIB mahib.mehta2006@gmail.com"]
 description = "A high-resolution random number generator using Mersenne Twister 64"
