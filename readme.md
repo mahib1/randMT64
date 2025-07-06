@@ -1,18 +1,3 @@
-Great! Based on your updated information:
-
-* Crate name: `randMT64`
-* Source directory: `rand_num_gen`
-* Your code includes:
-
-  * Mersenne Twister 64-bit generator
-  * Time-based seeding
-  * Configurable float generation in a range
-
-Here’s your updated `README.md`:
-
----
-
-````md
 # randMT64
 
 A lightweight, fast, and high-resolution pseudo-random number generator in Rust based on the **Mersenne Twister 64-bit** algorithm — with support for `u128` outputs and floating-point results mapped to any configurable range.
@@ -122,6 +107,5 @@ Licensed under either of:
 
 Built by [@mahib1](https://github.com/mahib1)
 
-```
 
 
