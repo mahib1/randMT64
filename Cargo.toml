@@ -1,0 +1,11 @@
+[package]
+name = "randMT64"    
+version = "0.1.0"
+edition = "2021"             
+authors = ["MAHIB mahib.mehta2006@gmail.com"]
+description = "A high-resolution random number generator using Mersenne Twister 64"
+license = "MIT OR Apache-2.0" 
+repository = "https://github.com/mahib1/randMT64.git"
+readme = "README.md"
+keywords = ["random", "rng", "mersenne", "u128", "micros"]
+categories = ["algorithms", "no-std", "science"]
