@@ -1,5 +1,5 @@
 [package]
-name = "randMT64"    
+name = "rand_mt_64"    
 version = "0.1.0"
 edition = "2021"             
 authors = ["MAHIB mahib.mehta2006@gmail.com"]
