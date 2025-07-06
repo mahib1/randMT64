@@ -65,6 +65,7 @@ impl Random {
         Self { start: s, end: e * MAGIC }
     }
 
+    #[allow(dead_code)]
     pub fn default() -> Self {
         Self { start: 0, end: MAGIC }
     }
